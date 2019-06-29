@@ -13,28 +13,28 @@
     src: url(/font/dinregular.TTF);
     font-weight: lighter;
 }
+
 *{
     margin: 0;
     padding: 0;
     user-select: none;
 }
 
+body{
+    background: #f0f0f0;
+}
+/* HEADER */
 header{
     display: flex;
+    padding: 0 35px;
     color: #938698;
-    background-color: #511369;
-    /* height: 60px; */
-    padding: 5px 20px;
+    background-color: #382042;
     position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
-	min-width: 320px;
-}
-
-.navigation{
-    /* height: 60px; */
-
+    min-width: 320px;
+    margin-right: 35px;
 }
 
 header>div{
@@ -42,37 +42,99 @@ header>div{
 }
 
 .order{
-    vertical-align: middle;
-    padding-left: 50px;
     text-align: center;
-}
-
-p{
-    color: #fff;
-    font: lighter 18px Hebar-extra-l;
+    padding: 5px 0px;
+    padding-left: 50px;
 }
 
 .order>a{
     text-decoration: none;
+    color: #fff;
+    margin-left: 35px;
     font: 26px dinregular;
     letter-spacing: 2px;
-    color: #fff;
-    text-transform: uppercase;
-    padding: 2px 5px;
     border-bottom: 1px dashed #fff;
 }
 
 .phone__block{
-    padding: 5px 0;
     text-align: right;
-
     font-family: 'Hebar-extra-l';
+    margin-right: 70px;
+    padding: 8px 0;
+}
+
+.phone__block>a{
     letter-spacing: 2px;
-    margin-right: 40px;
-
+    display: block;
+    text-decoration: none;
+    color: #fff;
 }
 
-.phone__block>p:last-child{
-    margin-top: 10px;
-    margin: 0;
+/* CONTAINER'S */
+/* =========== */
+
+.container{
+    padding: 0px 35px;
 }
+
+/* CONTAINER 1 */
+/*             */
+/* =========== */
+
+.container__1{
+    background-image: url(/img/poster.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 40px;
+}
+
+.container__1>h1{
+    padding-top: 240px;
+    color: #fff;
+    margin: 0 auto;
+    font-size: 120px;
+    font-family: dinregular;
+    text-align: center;
+    text-transform: uppercase;
+}
+.container__1>span{
+    display: block;
+    padding: 10px 50px;
+    background: rgba(56, 32, 66, 0.7);
+    text-transform: none;
+    font: 44px dinregular;
+    line-height: 1em;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    color: #e72185;
+} 
+
+.container__1>a{
+    text-decoration: none;
+    display: block;
+    width: 230px;
+    height: 50px;
+    margin: 40px auto;
+    background: #e72185;
+    font: 16px Hebar-extra-l;
+    letter-spacing: 2px;
+    line-height: 50px;
+    color: #fff;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+    text-align: center;
+}
+/* CONTAINER 2 */
+/*             */
+/* =========== */
+
+
+/* CONTAINER 3 */
+/*             */
+/* =========== */
+
+
+/* CONTAINER 4 */
+/*             */
+/* =========== */
