@@ -1,4 +1,78 @@
+@font-face{
+    font-family: Hebar;
+    src: url(/font/Hebar.ttf);
+}
+@font-face{
+    font-family: Hebar-extra-l;
+    src: url(/font/Hebar-Extra-l.otf);
+    font-weight: lighter;
+}
+
+@font-face{
+    font-family: dinregular;
+    src: url(/font/dinregular.TTF);
+    font-weight: lighter;
+}
 *{
     margin: 0;
     padding: 0;
+    user-select: none;
+}
+
+header{
+    display: flex;
+    color: #938698;
+    background-color: #511369;
+    /* height: 60px; */
+    padding: 5px 20px;
+    position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	min-width: 320px;
+}
+
+.navigation{
+    /* height: 60px; */
+
+}
+
+header>div{
+    flex: 1 1 auto;
+}
+
+.order{
+    vertical-align: middle;
+    padding-left: 50px;
+    text-align: center;
+}
+
+p{
+    color: #fff;
+    font: lighter 18px Hebar-extra-l;
+}
+
+.order>a{
+    text-decoration: none;
+    font: 26px dinregular;
+    letter-spacing: 2px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 2px 5px;
+    border-bottom: 1px dashed #fff;
+}
+
+.phone__block{
+    padding: 5px 0;
+    text-align: right;
+
+    font-family: 'Hebar-extra-l';
+    letter-spacing: 2px;
+    margin-right: 40px;
+
+}
+
+.phone__block>p:last-child{
+    margin-top: 10px;
+    margin: 0;
 }
