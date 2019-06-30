@@ -74,7 +74,7 @@ header>div{
 /* =========== */
 
 .container{
-    padding: 0px 35px;
+    /* padding: 0px 10px; */
 }
 
 /* CONTAINER 1 */
@@ -86,7 +86,7 @@ header>div{
     background-size: cover;
     background-repeat: no-repeat;
     padding-bottom: 40px;
-}
+
 
 .container__1>h1{
     padding-top: 240px;
