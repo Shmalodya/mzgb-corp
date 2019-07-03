@@ -14,6 +14,19 @@
     font-weight: lighter;
 }
 
+@font-face{
+    font-family: Montserrat-regular;
+    src: url(/font/Montserrat-Regular.ttf);
+    /* font-weight: lighter; */
+}
+
+@font-face{
+    font-family: Montserrat-bold;
+    src: url(/font/Montserrat-Bold.ttf);
+    /* font-weight: lighter; */
+    font-weight: bold;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -84,25 +97,29 @@ header>div{
 .container__1{
     background-image: url(/img/poster.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
+    max-width: 100%;
+    height: 100%;
     padding-bottom: 40px;
-
+}
 
 .container__1>h1{
     padding-top: 240px;
     color: #fff;
     margin: 0 auto;
-    font-size: 120px;
-    font-family: dinregular;
+    font-size: 6vw;
+    letter-spacing: 3px;
+    font-family: Montserrat-bold;
     text-align: center;
     text-transform: uppercase;
 }
 .container__1>span{
     display: block;
-    padding: 10px 50px;
+    /* padding: 10px 50px; */
+    padding: 10px 0px;
+    padding-bottom: 20px;
     background: rgba(56, 32, 66, 0.7);
     text-transform: none;
-    font: 44px dinregular;
+    font: 5vw dinregular;
     line-height: 1em;
     width: 70%;
     margin: 0 auto;
@@ -117,7 +134,7 @@ header>div{
     height: 50px;
     margin: 40px auto;
     background: #e72185;
-    font: 16px Hebar-extra-l;
+    font: 16px Montserrat;
     letter-spacing: 2px;
     line-height: 50px;
     color: #fff;
@@ -128,6 +145,53 @@ header>div{
 /* CONTAINER 2 */
 /*             */
 /* =========== */
+
+
+.container__2>h2>span{
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    color: #382042;
+    text-align: center;
+}
+
+.partners{
+    padding: 10px 13%;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    /* justify-content: center; */
+}
+
+.partner__logo{
+    background-color: #000000;
+    margin: 10px 10px;
+    /* justify-content: center; */
+   /* display: inline-block; */
+
+    height: 80px;
+    width: 200px;
+    /* flex-wrap: wrap; */
+
+}
+/* .container__2>h2>span:after, .container__2>h2>span:before {
+    left: 0;
+    width: 37.60683760683761%;
+    max-width: 440px;
+}
+.container__2>h2>span:after, .container__2>h2>span:before, .container__3>h2>span:after, .container__3>h2>span:before {
+    display: block;
+    height: 1px;
+    position: absolute;
+    content: "";
+    top: 50%;
+    background: #e72185;
+} */
+
 
 
 /* CONTAINER 3 */
